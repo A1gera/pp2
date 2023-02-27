@@ -1,6 +1,7 @@
 import json
 
-f = open("C:\PP2\lab4\sample_data.json")
+f = open('sample-data.json').read()
+
 json_data = json.load(f)
 print("""
 Interface Status
