@@ -1,8 +1,9 @@
 import json
 
-f = open(r'sample-data.json')
+with open(r"/Users/aigerim/Desktop/labs/lab4/sample-data.json") as file:
+    json_data = json.load(file)
 
-json_data = json.load(f)
+
 print("""
 Interface Status
 ================================================================================
