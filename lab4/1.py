@@ -1,6 +1,6 @@
 import json
 
-f = open('sample-data.json').read()
+f = open(r'sample-data.json')
 
 json_data = json.load(f)
 print("""
