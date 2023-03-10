@@ -1,0 +1,32 @@
+# f = open("A.txt", "x")
+# f = open("B.txt", "x")
+# f = open("C.txt", "x")
+# f = open("D.txt", "x")
+# f = open("E.txt", "x")
+# f = open("F.txt", "x")
+# f = open("G.txt", "x")
+# f = open("H.txt", "x")
+# f = open("I.txt", "x")
+# f = open("J.txt", "x")
+# f = open("K.txt", "x")
+# f = open("L.txt", "x")
+# f = open("M.txt", "x")
+# f = open("N.txt", "x")
+# f = open("O.txt", "x")
+# f = open("P.txt", "x")
+# f = open("Q.txt", "x")
+# f = open("R.txt", "x")
+# f = open("S.txt", "x")
+# f = open("T.txt", "x")
+# f = open("U.txt", "x")
+# f = open("V.txt", "x")
+# f = open("W.txt", "x")
+# f = open("X.txt", "x")
+# f = open("Y.txt", "x")
+# f = open("Z.txt", "x")
+
+
+import os,string
+for i in string.ascii_uppercase:
+     with open(i + ".txt", "w") as f:
+         f.writelines(i)
