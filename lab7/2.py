@@ -5,7 +5,7 @@ screen = pygame.display.set_mode((360, 360))
 done = False
 bg = pygame.image.load('lab7/playerA/player.png')
 
-player = [pygame.mixer.Sound('lab7/playerA/DoIwannaKnow.mp3'), pygame.mixer.Sound('lab7/playerA/church.mp3'), pygame.mixer.Sound('lab7/playerA/heaven.mp3'), pygame.mixer.Sound('lab7/playerA/tuimedaq.mp3')]
+player = [pygame.mixer.Sound('lab7/playerA/DoIwannaKnow.mp3'), pygame.mixer.Sound('lab7/playerA/church.mp3'), pygame.mixer.Sound('lab7/playerA/heaven.mp3'), pygame.mixer.Sound('lab7/playerA/tuimedaq.mp3'), pygame.mixer.Sound('lab7/playerA/suyemin.mp3')]
 i = 0
 
 check = False

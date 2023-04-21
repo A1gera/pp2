@@ -9,8 +9,8 @@ height = 800
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Mickey so fun clock')
 clock_img = pygame.image.load('lab7/clockA/clock.png')
-min_hand_img = pygame.image.load('lab7/clockA/minuteHand.png')
-sec_hand_img = pygame.image.load('lab7/clockA/secondsHand.png')
+min_hand_img = pygame.image.load('lab7/clockA/secondsHand.png')
+sec_hand_img = pygame.image.load('lab7/clockA/minuteHand.png')
 
 def get_time():
     now = datetime.now()
